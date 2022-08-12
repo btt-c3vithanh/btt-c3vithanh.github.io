@@ -40,7 +40,7 @@ const videoData = {
     "Fe3": {
         "OH": "https://drive.google.com/file/d/1kK2tgu2mgAZ2xYxFWqnsIYOTpBqgFQsv/preview",
         "PO4": "https://drive.google.com/file/d/1vC-mqGKPW94nJ4vi7e4UM85I53pEJdGJ/preview",
-        "CO3": "https://drive.google.com/file/d/1fgLYUSjc46cp9dStM9YLtzKYoAQB2KYB/preview",
+        "CO3": "https://drive.google.com/file/d/1_HbDsav458NVZbqH8wSdsZJCk8jB4D3a/preview",
         "S": "https://drive.google.com/file/d/1qzJic4mjIKX_FbWoA9QncIVmaZ-UjWQr/preview"
     },
     "Al": {
