@@ -35,6 +35,11 @@
 		.pointerImg {
 			cursor: pointer;
 		}
+
+		.container {
+			display: flex;
+			align-items: center;
+		}
 	</style>
 	<script src="index.js"></script>
 </head>
@@ -66,8 +71,7 @@
 			</tr>
 			<tr>
 				<td>OH<sup>-</sup></td>
-				<td><img class="pointerImg" src='/data/ktt.jpg'
-						onclick="windowOpen('video.html?cation=Ag&anion=OH')">
+				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Ag&anion=OH')">
 				</td>
 				<td><img class="pointerImg" src='/data/Cu/OH/img.jpg'
 						onclick="windowOpen('video.html?cation=Cu&anion=OH')"></td>
@@ -182,8 +186,14 @@
 				<td><img src='/data/Cr3/Cl/img.jpg'></td>
 			</tr>
 		</table>
-		<div style="clear:both; color:blue;">
-			<h1>Bản quyền thuộc về trường THPT Vị Thanh</h1>
+		<div class="container" style="justify-content: space-between; padding: 0px 50px;">
+			<div class="container">
+				<img width=70 height=80 id="_x0000_i1025" src="/data/ktt.jpg">
+				<div style='font-size:16.5pt'>Chất không tồn tại hoặc bị nước phân hủy</div>
+			</div>
+			<div style="color:blue;">
+				<h1>Bản quyền thuộc về trường THPT Vị Thanh</h1>
+			</div>
 		</div>
 	</div>
 </body>
