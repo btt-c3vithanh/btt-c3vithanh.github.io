@@ -36,34 +36,21 @@
 			cursor: pointer;
 		}
 	</style>
-	<script>
-		function windowOpen(url) {
-			window.open(url, 'newwindow', 'width=1300,height=760');
-			return false;
-		}
-	</script>
+	<script src="index.js"></script>
 </head>
 
-
-
 <body>
-	
+	<div style="float:left; text-align:center; color:blue;">
+		<p style="margin:0px">SỞ GD&ĐT TỈNH HẬU GIANG</p>
+		<p style="margin:0px">TRƯỜNG THPT VỊ THANH</p>
+	</div>
+	<div style="float:right; color:blue;">
+		THIẾT BỊ DẠY HỌC SỐ
+	</div>
+	<div style="clear:both; color:blue;">
+		<h1>BẢNG NHẬN BIẾT MỘT SỐ CHẤT THƯỜNG GẶP TRONG NƯỚC</h1>
 
-	
-	
-	<div>
-		
-<div style="float:left; text-align:center; color:blue;">
-<p style="margin:0px">SỞ GD&ĐT TỈNH HẬU GIANG</p>
-<p style="margin:0px">TRƯỜNG THPT VỊ THANH</p>
-</div>
-<div style="float:right; color:blue;">
-THIẾT BỊ DẠY HỌC SỐ
-</div>
-<div style="clear:both"; color:blue;">
-<h1>BẢNG NHẬN BIẾT MỘT SỐ CHẤT THƯỜNG GẶP TRONG NƯỚC</h1>
-	
-	
+
 		<table>
 			<tr>
 				<td></td>
@@ -79,7 +66,8 @@ THIẾT BỊ DẠY HỌC SỐ
 			</tr>
 			<tr>
 				<td>OH<sup>-</sup></td>
-				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Ag&anion=OH')">
+				<td><img class="pointerImg" src='/data/ktt.jpg'
+						onclick="windowOpen('video.html?cation=Ag&anion=OH')">
 				</td>
 				<td><img class="pointerImg" src='/data/Cu/OH/img.jpg'
 						onclick="windowOpen('video.html?cation=Cu&anion=OH')"></td>
@@ -93,7 +81,7 @@ THIẾT BỊ DẠY HỌC SỐ
 				<td><img class="pointerImg" src='/data/Fe3/OH/img.jpg'
 						onclick="windowOpen('video.html?cation=Fe3&anion=OH')"></td>
 				<td><img class="pointerImg" src='/data/Al/OH/img.jpg'
-						onclick="windowOpen('video.html?cation=Al&anion=OH')"></td>
+						onclick="windowOpen('doublevideo.html?cation=Al&anion=OH')"></td>
 				<td><img class="pointerImg" src='/data/Cr3/OH/img.jpg'
 						onclick="windowOpen('video.html?cation=Cr3&anion=OH')"></td>
 			</tr>
@@ -122,7 +110,8 @@ THIẾT BỊ DẠY HỌC SỐ
 				<td>CO<sub>3</sub><sup>2-</sup></td>
 				<td><img class="pointerImg" src='/data/Ag/CO3/img.jpg'
 						onclick="windowOpen('video.html?cation=Ag&anion=CO3')"></td>
-				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Cu&anion=CO3')">
+				<td><img class="pointerImg" src='/data/ktt.jpg'
+						onclick="windowOpen('doublevideo.html?cation=Cu&anion=CO3')">
 				</td>
 				<td><img class="pointerImg" src='/data/Mg/CO3/img.jpg'
 						onclick="windowOpen('video.html?cation=Mg&anion=CO3')"></td>
@@ -132,18 +121,18 @@ THIẾT BỊ DẠY HỌC SỐ
 						onclick="windowOpen('video.html?cation=Ba&anion=CO3')"></td>
 				<td><img class="pointerImg" src='/data/Fe2/CO3/img.jpg'
 						onclick="windowOpen('video.html?cation=Fe2&anion=CO3')"></td>
-												       
-												       
 				<td><img class="pointerImg" src='/data/ktt.jpg'
-						onclick="windowOpen('video.html?cation=Fe3&anion=CO3')"></td>
-				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Al&anion=CO3')">
+						onclick="windowOpen('doublevideo.html?cation=Fe3&anion=CO3')">
 				</td>
 				<td><img class="pointerImg" src='/data/ktt.jpg'
-						onclick="windowOpen('video.html?cation=Cr3&anion=CO3')"></td>
+						onclick="windowOpen('doublevideo.html?cation=Al&anion=CO3')">
+				</td>
+				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Cr3&anion=CO3')">
+				</td>
 			</tr>
-												       
-												       
-												       
+
+
+
 			<tr>
 				<td>SO<sub>4</sub><sup>2-</sup></td>
 				<td><img class="pointerImg" src='/data/Ag/SO4/img.jpg'
@@ -170,8 +159,8 @@ THIẾT BỊ DẠY HỌC SỐ
 				<td><img src='/data/Ca/S/img.jpg'></td>
 				<td><img src='/data/Ba/S/img.jpg'></td>
 				<td><img class="pointerImg" src='/data/Fe2/S/img.jpg'
-						onclick="windowOpen('video.html?cation=Fe2&anion=S')"></td>										     
-												     
+						onclick="windowOpen('video.html?cation=Fe2&anion=S')"></td>
+
 				<td><img class="pointerImg" src='/data/Fe3/S/img.jpg'
 						onclick="windowOpen('video.html?cation=Fe3&anion=S')"></td>
 				<td><img class="pointerImg" src='/data/ktt.jpg' onclick="windowOpen('video.html?cation=Al&anion=S')">
@@ -193,9 +182,8 @@ THIẾT BỊ DẠY HỌC SỐ
 				<td><img src='/data/Cr3/Cl/img.jpg'></td>
 			</tr>
 		</table>
-		<div style="clear:both"; color:blue;">
+		<div style="clear:both; color:blue;">
 			<h1>Bản quyền thuộc về trường THPT Vị Thanh</h1>
-		</div>									     
-</div>									     
-	
+		</div>
+	</div>
 </body>

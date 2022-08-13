@@ -1,0 +1,38 @@
+<head>
+    <title>Video</title>
+    <style>
+        .container-1 {
+            width: 49%;
+            position: absolute;
+        }
+        .container-2 {
+            width: 49%;
+            left: 50%;
+            position: absolute;
+        }
+        .overlay {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            cursor: pointer;
+        }
+        iframe {
+            width: 100%;
+            height: 30vw;
+        }
+    </style>
+</head> 
+
+<body>
+    <div class="container-1">
+        <iframe id="videoIframe-1" allow="autoplay"></iframe>
+        <div class="overlay" onclick="singleVideoWindowOpen(1)"></div>
+    </div>
+    <div class="container-2">
+        <iframe id="videoIframe-2" allow="autoplay"></iframe>
+        <div class="overlay" onclick="singleVideoWindowOpen(2)"></div>
+    </div>
+    <script src="doublevideo.js"></script>
+</body>

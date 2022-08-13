@@ -69,17 +69,26 @@ const videoData = {
     }
 }
 
-function getVideoURLFromParams() {
+const params = function() {
     const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const cation = urlParams.get("cation");
-    const anion = urlParams.get("anion");
-    const number = urlParams.get("number");
-    return number ? videoData[cation][anion][number] : videoData[cation][anion];
+    return new URLSearchParams(queryString);
+}();
+
+function getVideoURLFromParams(number) {
+    const cation = params.get("cation");
+    const anion = params.get("anion");
+    return videoData[cation][anion][number];
 }
 
 function iframeSrcChange() {
-    document.getElementById("videoIframe").src = getVideoURLFromParams();
+    document.getElementById("videoIframe-1").src = getVideoURLFromParams(1);
+    document.getElementById("videoIframe-2").src = getVideoURLFromParams(2);
 }
 
-iframeSrcChange();
+iframeSrcChange()
+
+function singleVideoWindowOpen(number) {
+    const url = "video.html?cation=" + params.get("cation") + "&anion=" + params.get("anion") + "&number=" + number;
+    window.open(url, 'newwindow', 'width=1300,height=760');
+    return false;
+}
