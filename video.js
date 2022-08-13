@@ -19,7 +19,7 @@ const videoData = {
     "Mg": {
         "OH": "https://drive.google.com/file/d/1dzhMKNJrEsa6CGqAX227tkRToAimrOCf/preview",
         "PO4": "https://drive.google.com/file/d/1YK5_oko41ol0uvS4Z_QxexfNIwodKYc5/preview",
-        "CO3": "https://drive.google.com/file/d/1YK5_oko41ol0uvS4Z_QxexfNIwodKYc5/preview",
+        "CO3": "https://drive.google.com/file/d/17uN-2PNZWC2mC5-NymPhnt_C7o9j20S4/preview",
         "S": "https://drive.google.com/file/d/1tvtqvdfJuubGocrajKsh9vUOTSHwqxpb/preview"
     },
     "Ca": {
@@ -31,11 +31,11 @@ const videoData = {
     "Ba": {
         "PO4": "https://drive.google.com/file/d/1vOWLjb9-hlRtRD_JFpSxgH-O4qaV9oiZ/preview",
         "CO3": "https://drive.google.com/file/d/1WxgzildbAW3sPLTkfSW-MYIihxQHvmC7/preview",
-        "SO4": "https://drive.google.com/file/d/1WxgzildbAW3sPLTkfSW-MYIihxQHvmC7/preview"
+        "SO4": "https://drive.google.com/file/d/1kNtQg3Db-YtPJKQnHBoDpTAawiF2-sXl/preview"
 
     },
     "Fe2": {
-        "OH": "https://drive.google.com/file/d/1WxgzildbAW3sPLTkfSW-MYIihxQHvmC7/preview",
+        "OH": "https://drive.google.com/file/d/1PYGyyvxDYbB8kyriY13PQ3qR3Ng1Wf1N/preview",
         "PO4": "https://drive.google.com/file/d/1TEMVEWtKwzFqObDGpv7d-KaRTj7O-rwn/preview",
         "CO3": "https://drive.google.com/file/d/1MFjkle_lRkRxAONiA6Ha5X0LmmDYSPgy/preview",
         "S": "https://drive.google.com/file/d/1p5xyRfwuvy_wuHihJKaMkE4coNNZLv5w/preview"
